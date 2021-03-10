@@ -1,0 +1,208 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #373737;
+    color: floralwhite;
+}
+
+section {
+    display: table;
+    width: 100%;
+}
+
+.section-container {
+    background-color: #373737;
+    margin: 50px 20% 50px;
+    padding: 20px;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img.avatar-img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+}
+
+.cursive{
+  font-family: 'Pacifico', cursive;
+}
+.cursive h1{
+  overflow: hidden;
+  border-right: .05em solid #839192;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 5px;
+  animation:
+  typing 3.5s steps(25, end),
+  blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #2962FF; }
+}
+
+/* nav menu */
+
+nav.nav ul li{
+    display: inline-block;
+    margin: 15px;
+}
+
+nav.nav ul li a{
+    text-decoration: none;
+    background-color: floralwhite;
+    color: #373737;
+    padding: 10px;
+    text-transform: uppercase;
+}
+/* à propos*/
+
+section#about {
+    height: 250px;
+    background: url(images/fond_ecran.jpg) fixed no-repeat;
+    background-position: center;
+}
+
+/* diplomes et formation */
+
+#diplome {
+  max-width: 800px;
+  margin: 140px auto 140px auto;
+  padding: 40px 30px 100px 30px;
+  background: url(images/fond.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: -1px -1px 8px #283655;
+}
+
+#diplome h3 {
+  font-size: 1.6em;
+  padding-bottom: 30px;
+}
+
+#diplome h4 {
+  font-size: 2.6em;
+  color: #ff4e50;
+  margin-left: 20px;
+}
+
+#diplome h1 {
+  font-style: italic;
+  color: #edca21;
+  margin-left: 20px;
+}
+
+#diplome p {
+  font-style: oblique;
+  line-height: 1.9em;
+}
+
+/* experience professionnelles*/
+
+#experience_pro {
+  max-width: 700px;
+  max-height: 900px;
+  margin: 140px auto 140px auto;
+  padding: 40px 30px 100px 30px;
+  background: url(images/fond2.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: -1px -1px 8px #283655;
+}
+
+#experience_pro h3 {
+  font-size: 1.6em;
+  padding-bottom: 30px;
+}
+
+#experience_pro h4 {
+  font-size: 2.6em;
+  color: #ff4e50;
+  margin-left: 20px;
+}
+
+#experience_pro h1 {
+  font-style: oblique;
+  color: #edca21;
+  margin-left: 20px;
+}
+
+#experience_pro p {
+  font-style: italic;
+  line-height: 1.9em;
+}
+
+#experience_pro img {
+  position: absolute;
+  right: 200px;
+  top: 150px;
+}
+
+.timeline {
+  border-top: 3px solid;
+  border-image: linear-gradient(to right, #f9d423, #ff4e50);
+  border-image-slice: 1;
+  margin: 0;
+  padding: 40px;
+  position: relative;
+}
+
+/* experience professionnelles*/
+
+
+
+/* competences */
+
+.competence-section {
+    display: flex;
+    padding: 20px;
+}
+
+.competence-item img{
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* boutton pour monter en haut de la page*/
+
+#scroll_to_top {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 30px;
+}
+#scroll_to_top img {
+  width: 35px;
+}
